@@ -1,0 +1,25 @@
+------
+
+dotnet publish --configuration xxx
+xxx = Release / Debug
+
+used for publish c# console application
+
+------
+------
+
+dotnet run --project GeekLauncherMC/GeekLauncherMC.csproj
+
+used for run GeekLauncherMC
+
+------
+------
+
+dotnet new console -n xxxxxx(csproj)
+dotnet new sln
+dotnet sln add xxxxx(csproj)
+
+used for create a new c# project (csproj and sln)
+
+------
+------
