@@ -1,0 +1,72 @@
+name: .NET
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build_for_linux:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet publish --configuration Debug
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: files-upload-linux
+        path: GeekLauncherMC/bin/Debug/net6.0
+  build_for_windows:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet publish --configuration Debug
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: files-upload-windows
+        path: GeekLauncherMC/bin/Debug/net6.0
+  build_for_macos:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet publish --configuration Debug
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: files-upload-macos
+        path: GeekLauncherMC/bin/Debug/net6.0
