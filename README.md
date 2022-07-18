@@ -27,13 +27,13 @@ GeekLauncherMC是一款简约、极客的Minecraft命令行启动器，整个启
 
 对于不想手动编译的懒人们来说，可以从Actions中下载到可执行文件：
 
-[Actions](https://github.com/Stargazing-Studio/GeekLauncherMC/actions)
+[Actions](https://github.com/Searchstars/GeekLauncherMC/actions)
 
 
 ## 编译
 先clone此仓库：
 
-`git clone https://github.com/Stargazing-Studio/GeekLauncherMC`
+`git clone https://github.com/SearchstarsGeekLauncherMC`
 
 然后直接执行：
 

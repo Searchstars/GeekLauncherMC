@@ -29,13 +29,13 @@ Since GeekLauncherMC is written in .NET 6 with strong compatibility, and because
 
 For lazy people who don't want to compile manually, you can download the executable from Actions:
 
-[Actions](https://github.com/Stargazing-Studio/GeekLauncherMC/actions)
+[Actions](https://github.com/Searchstars/GeekLauncherMC/actions)
 
 
 ## compile
 First clone this repository:
 
-`git clone https://github.com/Stargazing-Studio/GeekLauncherMC`
+`git clone https://github.com/Searchstars/GeekLauncherMC`
 
 Then execute directly:
 
