@@ -33,7 +33,7 @@ GeekLauncherMC是一款简约、极客的Minecraft命令行启动器，整个启
 ## 编译
 先clone此仓库：
 
-`git clone https://github.com/SearchstarsGeekLauncherMC`
+`git clone https://github.com/Searchstars/GeekLauncherMC`
 
 然后直接执行：
 
