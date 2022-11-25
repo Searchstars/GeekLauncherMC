@@ -1,5 +1,6 @@
 # GeekLauncherMC
 ### GeekLauncherMC - 一款主打简约、极客风格的Minecraft命令行启动器
+#### 作者做着玩的，打发时间，不保证持续更新
 
 Language: CHS | [EN](README_EN.md)
 
