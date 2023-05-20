@@ -22,7 +22,7 @@ GeekLauncherMC是一款简约、极客的Minecraft命令行启动器，整个启
 [  ] 微软登录
 
 ## 兼容性
-由于GeekLauncherMC使用兼容性强大的.NET 6编写，且由于是控制台应用，所以GeekLauncherMC可以兼容任何主流操作系统以及桌面环境，例如Linux下的DWM KDE XFCE都能完美兼容（甚至可以在tty中运行
+由于GeekLauncherMC使用兼容性强大的.NET 6编写，且由于是控制台应用，所以GeekLauncherMC可以兼容任何主流操作系统以及桌面环境，例如Linux下的DWM KDE XFCE都能完美兼容
 
 ## 下载
 
@@ -41,3 +41,5 @@ GeekLauncherMC是一款简约、极客的Minecraft命令行启动器，整个启
 `dotnet run --project GeekLauncherMC/GeekLauncherMC.csproj`
 
 即可完成编译并运行，届时可在`GeekLauncherMC/bin/Debug/net6.0`中找到编译完成的可执行文件 理论上来说只要你的电脑安装好了.NET开发环境以及Java即可完美编译运行使用
+
+或者，你可以用Visual Studio自己创建sln然后添加这个csproj然后编译，但这打命令比这更简单不是吗？
