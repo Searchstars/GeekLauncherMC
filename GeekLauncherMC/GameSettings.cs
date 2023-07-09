@@ -36,8 +36,8 @@ public static class GameSettings{
                                     Console.WriteLine(Language.Text.GameSettings.MemoryAllocation.XmnTips);
                                     Console.WriteLine(Language.Text.Main.PleaseTypeMessage);
                                     string xmnresult = Console.ReadLine();
-                                    if(xmnresult.Contains("-Xmn") && !xmnresult.Contains(" ")){
-                                        File.WriteAllText("configs/javaXmn",xmnresult);
+                                    if(xmnresult.Contains("-Xms") && !xmnresult.Contains(" ")){
+                                        File.WriteAllText("configs/javaXms",xmnresult);
                                         Console.WriteLine(Language.Text.GameSettings.MemoryAllocation.FinishTips);
                                         goto while_game_settings_mem;
                                     }
