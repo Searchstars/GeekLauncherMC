@@ -8,7 +8,7 @@ public static class ConfigBuilder{
         "configs/language",
         "configs/uuid",
         "configs/javaXmx",
-        "configs/javaXmn",
+        "configs/javaXms",
         "configs/now_select_version",
         "configs/jarname",
         "configs/width",
@@ -63,7 +63,7 @@ public static class ConfigBuilder{
         }
         File.WriteAllText("configs/uuid","--uuid 123abc");
         File.WriteAllText("configs/javaXmx","-Xmx2048M");
-        File.WriteAllText("configs/javaXmn","-Xmn128M");
+        File.WriteAllText("configs/javaXms","-Xms128M");
         File.WriteAllText("configs/width","854");
         File.WriteAllText("configs/height","480");
         File.WriteAllText("configs/launch_script_custom","jvav -Xmx114514T -Xmn19810P");
