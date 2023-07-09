@@ -3,7 +3,7 @@ using System;
 
 public static class LauncherScriptBuilder{
     public static string Build(){
-        string LaunchScript = File.ReadAllText("configs/javaXmx")  + " " + File.ReadAllText("configs/javaXmn") + " -Djava.library.path=" + File.ReadAllText("configs/now_select_version") + "/natives" + " -Dminecraft.launcher.brand=GeekLauncherMC" + " -cp ";
+        string LaunchScript = File.ReadAllText("configs/javaXmx")  + " " + File.ReadAllText("configs/javaXms") + " -Djava.library.path=" + File.ReadAllText("configs/now_select_version") + "/natives" + " -Dminecraft.launcher.brand=GeekLauncherMC" + " -cp ";
         string[] files = Directory.GetFiles(".minecraft/libraries", "*", SearchOption.AllDirectories);
         for(int i=0;i<files.Length-1;i++){
             Console.WriteLine(files[i].ToString());
