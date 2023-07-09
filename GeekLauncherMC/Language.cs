@@ -82,9 +82,9 @@ public static class Language{
                 Text.GameSettings.FeatureSelectionMessage_0 = "------ 游戏设置 ------";
                 Text.GameSettings.FeatureSelectionMessage_1 = "(1). 内存分配   (2). 游戏窗口分辨率   (3). 自定义启动命令   (4).返回主菜单";
                 Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_0 = "------ 游戏设置 > 内存分配 ------";
-                Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_1 = "(1). Xmx（最大内存）   (2).Xmn（最小内存）   (3). 返回上一级";
+                Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_1 = "(1). Xmx（最大内存）   (2).Xms（最小内存）   (3). 返回上一级";
                 Text.GameSettings.MemoryAllocation.XmxTips = "输入游戏可占用的最大内存，例如我想让游戏最大占用4096M的内存，那么我该输入：-Xmx4096M";
-                Text.GameSettings.MemoryAllocation.XmnTips = "输入游戏可占用的最小内存，例如我想让游戏最少占用128M的内存，那么我该输入：-Xmn128M";
+                Text.GameSettings.MemoryAllocation.XmnTips = "输入游戏可占用的最小内存，例如我想让游戏最少占用128M的内存，那么我该输入：-Xms128M";
                 Text.GameSettings.MemoryAllocation.FinishTips = "操作成功完成！";
                 Text.GameSettings.CustomLaunchScriptTips = "若要自定义启动参数，请使用其它文本编辑器编辑configs/launch_script_custom文件，覆盖掉其中原内容即可";
                 Text.GameSettings.ResSet.width_tips = "输入窗口长度：";
@@ -118,9 +118,9 @@ public static class Language{
                 Text.GameSettings.FeatureSelectionMessage_0 = "------ Game Settings ------";
                 Text.GameSettings.FeatureSelectionMessage_1 = "(1). Memory allocation (2). Game window resolution (3). Custom launch command (4). Return to main menu";
                 Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_0 = "------ Game Settings > Memory Allocation ------";
-                Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_1 = "(1). Xmx (maximum memory) (2). Xmn (minimum memory) (3). Return to the previous level";
+                Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_1 = "(1). Xmx (maximum memory) (2). Xms (minimum memory) (3). Return to the previous level";
                 Text.GameSettings.MemoryAllocation.XmxTips = "Enter the maximum memory that the game can occupy. For example, if I want the game to occupy a maximum memory of 4096M, then I should input: -Xmx4096M";
-                Text.GameSettings.MemoryAllocation.XmxTips = "Enter the minimum memory that the game can occupy. For example, if I want the game to occupy at least 128M of memory, then I should enter: -Xmn128M";
+                Text.GameSettings.MemoryAllocation.XmxTips = "Enter the minimum memory that the game can occupy. For example, if I want the game to occupy at least 128M of memory, then I should enter: -Xms128M";
                 Text.GameSettings.MemoryAllocation.FinishTips = "Operation completed successfully!";
                 Text.GameSettings.CustomLaunchScriptTips = "To customize the launch parameters, please use another text editor to edit the configs/launch_script_custom file and overwrite the original content";
                 Text.GameSettings.ResSet.width_tips = "Input window length:";
@@ -154,9 +154,9 @@ public static class Language{
                 Text.GameSettings.FeatureSelectionMessage_0 = "------ 遊戲設置 ------";
                 Text.GameSettings.FeatureSelectionMessage_1 = "(1). 內存分配   (2). 遊戲窗口分辨率   (3). 自定義啟動命令   (4).返回主菜單";
                 Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_0 = "------ 遊戲設置 > 內存分配 ------";
-                Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_1 = "(1). Xmx（最大內存）   (2).Xmn（最小內存）   (3). 返回上一級";
+                Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_1 = "(1). Xmx（最大內存）   (2).Xms（最小內存）   (3). 返回上一級";
                 Text.GameSettings.MemoryAllocation.XmxTips = "輸入遊戲可佔用的最大內存，例如我想讓遊戲最大佔用4096M的內存，那麼我該輸入：-Xmx4096M";
-                Text.GameSettings.MemoryAllocation.XmxTips = "輸入遊戲可佔用的最小內存，例如我想讓遊戲最少佔用128M的內存，那麼我該輸入：-Xmn128M";
+                Text.GameSettings.MemoryAllocation.XmxTips = "輸入遊戲可佔用的最小內存，例如我想讓遊戲最少佔用128M的內存，那麼我該輸入：-Xms128M";
                 Text.GameSettings.MemoryAllocation.FinishTips = "操作成功完成！";
                 Text.GameSettings.CustomLaunchScriptTips = "若要自定義啟動參數，請使用其它文本編輯器編輯configs/launch_script_custom文件，覆蓋掉其中原內容即可";
                 Text.GameSettings.ResSet.width_tips = "輸入窗口長度：";
