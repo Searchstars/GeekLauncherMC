@@ -66,6 +66,6 @@ public static class ConfigBuilder{
         File.WriteAllText("configs/javaXms","-Xms128M");
         File.WriteAllText("configs/width","854");
         File.WriteAllText("configs/height","480");
-        File.WriteAllText("configs/launch_script_custom","jvav -Xmx114514T -Xmn19810P");
+        File.WriteAllText("configs/launch_script_custom","jvav -Xmx114514T -Xms19810P");
     }
 }

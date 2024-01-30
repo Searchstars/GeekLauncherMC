@@ -33,11 +33,11 @@ public static class GameSettings{
                                 continue;
                             case "2":
                                 while(true){
-                                    Console.WriteLine(Language.Text.GameSettings.MemoryAllocation.XmnTips);
+                                    Console.WriteLine(Language.Text.GameSettings.MemoryAllocation.XmsTips);
                                     Console.WriteLine(Language.Text.Main.PleaseTypeMessage);
-                                    string xmnresult = Console.ReadLine();
-                                    if(xmnresult.Contains("-Xms") && !xmnresult.Contains(" ")){
-                                        File.WriteAllText("configs/javaXms",xmnresult);
+                                    string Xmsresult = Console.ReadLine();
+                                    if(Xmsresult.Contains("-Xms") && !Xmsresult.Contains(" ")){
+                                        File.WriteAllText("configs/javaXms",Xmsresult);
                                         Console.WriteLine(Language.Text.GameSettings.MemoryAllocation.FinishTips);
                                         goto while_game_settings_mem;
                                     }

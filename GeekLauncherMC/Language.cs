@@ -44,7 +44,7 @@ public static class Language{
                 public static string FeatureSelectionMessage_0 = "";
                 public static string FeatureSelectionMessage_1 = "";
                 public static string XmxTips = "";
-                public static string XmnTips = "";
+                public static string XmsTips = "";
                 public static string FinishTips = "";
             }
             public static class ResSet{
@@ -84,7 +84,7 @@ public static class Language{
                 Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_0 = "------ 游戏设置 > 内存分配 ------";
                 Text.GameSettings.MemoryAllocation.FeatureSelectionMessage_1 = "(1). Xmx（最大内存）   (2).Xms（最小内存）   (3). 返回上一级";
                 Text.GameSettings.MemoryAllocation.XmxTips = "输入游戏可占用的最大内存，例如我想让游戏最大占用4096M的内存，那么我该输入：-Xmx4096M";
-                Text.GameSettings.MemoryAllocation.XmnTips = "输入游戏可占用的最小内存，例如我想让游戏最少占用128M的内存，那么我该输入：-Xms128M";
+                Text.GameSettings.MemoryAllocation.XmsTips = "输入游戏可占用的最小内存，例如我想让游戏最少占用128M的内存，那么我该输入：-Xms128M";
                 Text.GameSettings.MemoryAllocation.FinishTips = "操作成功完成！";
                 Text.GameSettings.CustomLaunchScriptTips = "若要自定义启动参数，请使用其它文本编辑器编辑configs/launch_script_custom文件，覆盖掉其中原内容即可";
                 Text.GameSettings.ResSet.width_tips = "输入窗口长度：";
